@@ -30,3 +30,19 @@ void Mahasiswa::printALL() {
     cout << endl;
 };
 
+int main() {
+    //membuat object dan memberi nilai
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Fawwaz Sratus");
+    Mahasiswa mhs3("Nadi Kurniawan");
+    Mahasiswa mhs4("bagas Satya Widhi");
+
+    //memanggil prosedur PrintALL()
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
+
+    return 0;
+
+}
