@@ -13,3 +13,11 @@ class buku{
 
 };
 
+int mai()
+{
+    buku bukunya ;
+    //bukunya.seJudul("Matematika");
+    //cout << bukunya.getJudul()<< endl;
+    cout << bukunya.setJudul("Matematika").getJudul();  //chain function calss
+    return 0;
+}
