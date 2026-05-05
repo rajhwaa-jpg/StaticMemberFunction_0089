@@ -20,3 +20,13 @@ class Mahasiswa { //membuat class mahasiswa
         }
 };
 
+//memberi velue  ke  variable nim dari vlass mahasiswa
+int Mahasiswa::nim = 10;
+
+//mengimplementasikan prosedur - prosedur di luar class
+void Mahasiswa::printALL() {
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
+};
+
